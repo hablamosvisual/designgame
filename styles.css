@@ -9,6 +9,7 @@ body {
 a {
     font-weight: bold;
     color: rgb(51, 18, 158);
+    text-decoration: none;
 }
 
 /* Estilo general para todos los encabezados */
