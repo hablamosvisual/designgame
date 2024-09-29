@@ -1,0 +1,112 @@
+* {
+    text-align: center;
+}
+
+body {
+    background-image: url(images/back1.jpg);
+}
+
+a {
+    font-weight: bold;
+    color: rgb(51, 18, 158);
+}
+
+/* Estilo general para todos los encabezados */
+h1, h2, h3, h4 {
+    font-family: 'Courier New', monospace; /* Tipografía brutalista */
+    font-weight: bold; /* Letras fuertes y pesadas */
+    color: black; /* Color oscuro y básico */
+    text-transform: uppercase; /* Letras en mayúscula */
+    margin-bottom: 20px; /* Separación entre títulos */
+    padding: 10px;
+    background-color: lightgray; /* Fondo claro */
+    border: 4px solid black; /* Bordes gruesos */
+    box-shadow: 6px 6px 0px black; /* Sombras duras y toscas */
+}
+
+/* Diferentes tamaños para cada encabezado */
+h1 {
+    font-size: 40px;
+}
+
+h2 {
+    font-size: 32px;
+}
+
+h3 {
+    font-size: 28px;
+}
+
+h4 {
+    font-size: 24px;
+}
+
+/* Estilo general para los párrafos */
+p {
+    font-family: 'Courier New', monospace; /* Tipografía brutalista */
+    font-size: 18px;
+    color: black;
+    background-color: white;
+    padding: 10px;
+    border: 2px solid black; /* Bordes más finos en párrafos */
+    box-shadow: 4px 4px 0px black; /* Sombras menos marcadas */
+    line-height: 1.6; /* Mejora la legibilidad */
+    margin-bottom: 20px; /* Separación entre párrafos */
+}
+
+
+button {
+    width: 150px;
+    height: 60px;
+    background-color: bisque;
+    border: 4px solid black; /* Bordes gruesos */
+    color: black;
+    font-size: 18px;
+    font-family: 'Courier New', monospace; /* Tipografía de estilo brutalista */
+    text-transform: uppercase;
+    box-shadow: 6px 6px 0px black; /* Sombras duras y sin suavizar */
+    cursor: pointer;
+    transition: transform 0.2s;
+    margin-bottom: 20px;
+}
+
+button:hover {
+    transform: translate(-4px, -4px); /* Movimiento brusco al pasar el ratón */
+}
+
+img {
+    height: auto; /* Mantiene la proporción de la imagen */
+    border: 6px solid black; /* Bordes gruesos */
+    box-shadow: 10px 10px 0px black; /* Sombras duras sin desenfoque */
+    margin-bottom: 20px; /* Espaciado inferior */
+    transition: transform 0.2s ease-in-out; /* Efecto de movimiento brusco al hacer hover */
+}
+
+img:hover {
+    transform: translate(-8px, -8px); /* Mueve la imagen ligeramente hacia arriba e izquierda */
+}
+
+/* Estilo para los videos */
+video {
+    height: auto; /* Mantiene la proporción del video */
+    border: 6px solid black; /* Bordes gruesos */
+    box-shadow: 10px 10px 0px black; /* Sombras duras sin desenfoque */
+    margin-bottom: 20px; /* Espaciado inferior */
+    transition: transform 0.2s ease-in-out; /* Efecto de movimiento brusco al hacer hover */
+}
+
+video:hover {
+    transform: translate(-8px, -8px); /* Movimiento al hacer hover */
+}
+
+/* Estilo para los iframes */
+iframe {
+    border: 6px solid black; /* Bordes gruesos */
+    box-shadow: 10px 10px 0px black; /* Sombras duras sin desenfoque */
+    margin-bottom: 20px; /* Espaciado inferior */
+    transition: transform 0.2s ease-in-out; /* Efecto de movimiento brusco al hacer hover */
+}
+
+iframe:hover {
+    transform: translate(-8px, -8px); /* Movimiento al hacer hover */
+}
