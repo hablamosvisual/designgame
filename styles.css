@@ -69,8 +69,6 @@ button {
     cursor: pointer;
     transition: transform 0.2s;
     margin-bottom: 20px;
-    /* margin-left: 70px; */
-    /* margin-right: 100px; */
 }
 
 button:hover {
